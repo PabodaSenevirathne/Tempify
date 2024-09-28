@@ -1,7 +1,6 @@
 package com.example.pabodaassignment1;
 
 import android.os.Bundle;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -9,7 +8,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.Toast;
-
 import com.example.pabodaassignment1.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -66,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean inputValidation(String input) {
         // validate numeric numbers
         if (input.isEmpty()) {
-            Toast.makeText(this, "Please enter a valid number", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter a temperature", Toast.LENGTH_SHORT).show();
             return false;
         }
         try {
