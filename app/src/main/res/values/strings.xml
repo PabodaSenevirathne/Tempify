@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PabodaAssignment1</string>
+    <string name="convert_Now">Convert Now</string>
+    <string name="converted_Temp">Converted Temperature</string>
+    <string name="title">TempConvert</string>
+    <string name="enter_temp">Enter Temp</string>
+    <string name="c_button">°C</string>
+    <string name="f_button">°F</string>
+</resources>
